@@ -6,7 +6,7 @@ const timeouts = new Map<string, number>();
  * @param ms
  * @param id
  */
-export function debounce (cb: (() => void), ms: number, id: string) {
+export function debounce(cb: (() => void), ms: number, id: string) {
 
 	// Clear current timeout for id
 	const timeout = timeouts.get(id);
@@ -15,7 +15,7 @@ export function debounce (cb: (() => void), ms: number, id: string) {
 	}
 
 	// Set new timeout
-	timeouts.set(id, window.setTimeout(() => {
+	timeouts.set(id, window.setTimeout(function () {
 		cb();
 		timeouts.delete(id);
 	}, ms));
