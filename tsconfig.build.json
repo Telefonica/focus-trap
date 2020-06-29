@@ -3,7 +3,7 @@
 	"compilerOptions": {
 		"outDir": "dist",
 		"declaration": true,
-		"target": "es2017",
+		"target": "es6",
 		"importHelpers": true,
 		"lib": [
 			"es2015.promise",
@@ -13,7 +13,8 @@
 			"es2017",
 			"es2017.object",
 			"es2015.proxy",
-			"esnext"
+			"esnext",
+			"scriptHost"
 		]
 	},
 	"include": [

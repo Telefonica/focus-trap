@@ -1,5 +1,5 @@
 {
-	"name": "@a11y/focus-trap",
+	"name": "@11paths/focus-trap",
 	"version": "1.0.5",
 	"license": "MIT",
 	"module": "index.js",
@@ -9,7 +9,7 @@
 		"url": "https://github.com/andreasbm/focus-trap/issues"
 	},
 	"publishConfig": {
-		"access": "public"
+		"registry": "https://artifactory.hi.inet/artifactory/api/npm/npm-11paths/"
 	},
 	"homepage": "https://github.com/andreasbm/focus-trap#readme",
 	"repository": {
